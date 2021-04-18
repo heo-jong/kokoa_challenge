@@ -1,0 +1,53 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: var(--sky-blue);
+  color: white;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: -15px;
+}
+
+#friends-display-link i {
+  color: white;
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: #2c3a47;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: var(--sky-blue);
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}

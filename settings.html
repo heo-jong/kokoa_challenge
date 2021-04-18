@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-2x"></i>
+      </div>
+    </header>
+
+    <main class="main-screen setting-screen">
+      <span>NOMAD:\Challenger\Kokoa > setting</span>
+      <div class="kokoa_clone">
+        <span class="setting__title"> Kokoa Clone </span>
+        <span class="setting__text"> Ver. 1.0.0 </span>
+        <span class="setting__text"> (default, Apr 18, 2021) </span>
+        <p class="setting__text">Set up Your Kokoa ... ...</p>
+      </div>
+      <div>
+        <div>
+          <label for="notice">
+            <span> >>> Notice </span>
+          </label>
+          <input type="checkbox" name="notice" id="notice" />
+          <div>
+            <span> End of Support for iOS 11.4 and bleow</span>
+          </div>
+        </div>
+        <div>
+          <label for="lab">
+            <span> >>> Lab </span>
+          </label>
+          <input type="checkbox" name="lab" id="lab" />
+          <div>
+            <span>Shake</span>
+            <span>Voice Mode</span>
+            <span>Snowing Background</span>
+            <span>Hide My Chatroom</span>
+            <span>Separate Chat List</span>
+          </div>
+        </div>
+        <div>
+          <label for="version">
+            <span> >>> Version </span>
+          </label>
+          <input type="checkbox" name="version" id="version" />
+          <div>
+            <span>Lastest Version</span>
+          </div>
+        </div>
+        <div>
+          <label for="privacy">
+            <span> >>> Privacy </span>
+          </label>
+          <input type="checkbox" name="privacy" id="privacy" />
+          <div>
+            <span>Kokoa Account</span>
+            <span>Manage My Personal Info</span>
+          </div>
+        </div>
+        <div>
+          <label for="notification">
+            <span> >>> Notification </span>
+          </label>
+          <input type="checkbox" name="notification" id="notification" />
+          <div>
+            <span>Notification Tones</span>
+            <span>Show Previews</span>
+          </div>
+        </div>
+        <div>
+          <label for="friends">
+            <span> >>> Friends </span>
+          </label>
+          <input type="checkbox" name="friends" id="friends" />
+          <div>
+            <span>Add Automatically</span>
+            <span>Refresh</span>
+          </div>
+        </div>
+        <div>
+          <label for="chat">
+            <span> >>> Chat </span>
+          </label>
+          <input type="checkbox" name="chat" id="chat" />
+          <div>
+            <span>Chat Backup</span>
+            <span>Chat/Media Backup</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nave__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a class="nav__link" href="more.html">
+            <span class="nav_ellipsis"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span> <span><</span>span<span>></span> </span>
+
+      <span>Your screen is too big</span>
+
+      <span> <span><</span><span>/</span>span<span>></span> </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
